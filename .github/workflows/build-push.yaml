@@ -8,7 +8,7 @@ on:
 ## Jobs
 jobs:
   build-push:
-    runs-on: ubuntu-latest:
+    runs-on: ubuntu-latest
     steps:
       - name: cloning repository
         uses: actions/checkout@v6
